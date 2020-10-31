@@ -10,10 +10,47 @@ body{
 }
 
 .menu{
+    padding-top: 10px;
 }
 
 .menu-item{
-    width: 70px;
+    display: flex;
+    padding: 50px 2px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.menu-item a {
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 12px;
+    border-color: white;
+    align-content: space-around;
+    width: 60px;
+    height:30px;
     text-align: center;
     text-decoration: none;
-    {
+    background-color: #eba002 ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.welcome{
+    font-size: 35px;
+    opacity: 100%;
+
+}
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+    width: 500px;
+    padding: 1px 500px 20px 200px;
+    background-color: #eba002;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity: 70%;
+}
