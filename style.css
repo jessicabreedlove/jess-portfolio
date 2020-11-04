@@ -40,7 +40,6 @@ body{
 
 .welcome{
     font-size: 35px;
-    opacity: 100%;
 
 }
 
@@ -52,5 +51,5 @@ body{
     padding: 1px 500px 20px 200px;
     background-color: #eba002;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    opacity: 70%;
+    background-opacity: 70%;
 }
